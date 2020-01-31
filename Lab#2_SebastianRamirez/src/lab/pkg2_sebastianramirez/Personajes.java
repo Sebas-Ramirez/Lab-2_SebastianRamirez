@@ -13,6 +13,7 @@ public class Personajes {
     private int dg;
 
     public Personajes() {
+        
     }
 
     public Personajes(String personaje, String raza, double estatura, int peso, int años, String descripcion, String nacionalidad,
@@ -116,6 +117,11 @@ public class Personajes {
 
     public void setDg(int dg) {
         this.dg = dg;
+    }
+
+    @Override
+    public String toString() {
+        return "Personajes{" + "personaje=" + personaje + ", raza=" + raza + '}';
     }
     
 }
