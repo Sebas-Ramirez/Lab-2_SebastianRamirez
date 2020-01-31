@@ -20,6 +20,46 @@ public class Personajes {
         this.descripcion = descripcion;
         this.nacionalidad = nacionalidad;
     }
-
-    
+    public void setPersonaje(String personaje) {
+        this.personaje = personaje;
+    }
+    public void setRaza(String raza) {
+        this.raza = raza;
+    }
+    public void setEstatura(double estatura) {
+        this.estatura = estatura;
+    }
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+    public void setAños(int años) {
+        this.años = años;
+    }
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+    public void setNacionalidad(String nacionalidad) {
+        this.nacionalidad = nacionalidad;
+    }
+    public String getPersonaje() {
+        return personaje;
+    }
+    public String getRaza() {
+        return raza;
+    }
+    public double getEstatura() {
+        return estatura;
+    }
+    public double getPeso() {
+        return peso;
+    }
+    public int getAños() {
+        return años;
+    }
+    public String getDescripcion() {
+        return descripcion;
+    }
+    public String getNacionalidad() {
+        return nacionalidad;
+    }
 }
