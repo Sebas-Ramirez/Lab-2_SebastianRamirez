@@ -3,7 +3,7 @@ public class Personajes {
     private String personaje;
     private String raza;
     private double estatura;
-    private double peso;
+    private int peso;
     private int años;
     private String descripcion;
     private String nacionalidad;
@@ -15,7 +15,8 @@ public class Personajes {
     public Personajes() {
     }
 
-    public Personajes(String personaje, String raza, double estatura, double peso, int años, String descripcion, String nacionalidad, int hp, int cs, int ac, int dg) {
+    public Personajes(String personaje, String raza, double estatura, int peso, int años, String descripcion, String nacionalidad,
+        int hp, int cs, int ac, int dg) {
         this.personaje = personaje;
         this.raza = raza;
         this.estatura = estatura;
@@ -57,7 +58,7 @@ public class Personajes {
         return peso;
     }
 
-    public void setPeso(double peso) {
+    public void setPeso(int peso) {
         this.peso = peso;
     }
 
